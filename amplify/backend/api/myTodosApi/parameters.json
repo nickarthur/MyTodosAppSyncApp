@@ -1,0 +1,4 @@
+{
+    "AppSyncApiName": "myTodosApi",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST"
+}

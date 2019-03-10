@@ -1,0 +1,16 @@
+projects:
+  myTodosApi:
+    schemaPath: graphql/schema.json
+    includes:
+      - graphql/**/*.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: swift
+        generatedFileName: MyTodosAppSyncApp/API/MyTodosAPI.swift
+        docsFilePath: graphql
+        graphQLApiId: cshyngp3knfzpckoauy4twhdni
+      endpoints:
+        prod: >-
+          https://mdt5wqd72vaf3es4syq5fsu2za.appsync-api.us-east-1.amazonaws.com/graphql
